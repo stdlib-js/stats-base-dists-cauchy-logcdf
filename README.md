@@ -31,7 +31,7 @@ The [cumulative distribution function][cdf] for a [Cauchy][cauchy-distribution] 
 <!-- <equation class="equation" label="eq:cauchy_cdf" align="center" raw="F(x; x_0,\gamma)=\frac{1}{\pi} \operatorname{arctan} \left(\frac{x-x_0}{\gamma}\right)+\frac{1}{2}" alt="Cumulative distribution function for a Cauchy distribution."> -->
 
 ```math
-F(x; x_0,\gamma)=\frac{1}{\pi} \operatorname{arctan} \left(\frac{x-x_0}{\gamma}\right)+\frac{1}{2}
+F(x; x_0,\gamma)=\frac{1}{\pi} \mathop{\mathrm{arctan}} \left(\frac{x-x_0}{\gamma}\right)+\frac{1}{2}
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="F(x; x_0,\gamma)=\frac{1}{\pi} \operatorname{arctan} \left(\frac{x-x_0}{\gamma}\right)+\frac{1}{2}" data-equation="eq:cauchy_cdf">
@@ -47,20 +47,30 @@ where `x0` is the location parameter and `gamma > 0` is the scale parameter.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-cauchy-logcdf
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@esm/index.mjs';
+var logcdf = require( '@stdlib/stats-base-dists-cauchy-logcdf' );
 ```
 
 #### logcdf( x, x0, gamma )
@@ -135,15 +145,10 @@ y = mylogcdf( 12.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var EPS = require( '@stdlib/constants-float64-eps' );
+var logcdf = require( '@stdlib/stats-base-dists-cauchy-logcdf' );
 
 var gamma;
 var x0;
@@ -158,10 +163,6 @@ for ( i = 0; i < 10; i++ ) {
     y = logcdf( x, x0, gamma );
     console.log( 'x: %d, x0: %d, γ: %d, ln(F(x;x0,γ)): %d', x, x0, gamma, y );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -185,7 +186,7 @@ for ( i = 0; i < 10; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
