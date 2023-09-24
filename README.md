@@ -65,13 +65,18 @@ where `x0` is the location parameter and `gamma > 0` is the scale parameter.
 ## Usage
 
 ```javascript
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-cauchy-logcdf/tags). For example,
+
+```javascript
 import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@v0.1.0-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@deno/mod.js';
 ```
 
 #### logcdf( x, x0, gamma )
@@ -149,7 +154,7 @@ y = mylogcdf( 12.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@v0.1.0-deno/mod.js';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@deno/mod.js';
 
 var gamma;
 var x0;
