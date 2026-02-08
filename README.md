@@ -65,13 +65,13 @@ where `x0` is the location parameter and `gamma > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@v0.3.1-esm/index.mjs';
 ```
 
 #### logcdf( x, x0, gamma )
@@ -155,7 +155,7 @@ y = mylogcdf( 12.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-cauchy-logcdf@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
