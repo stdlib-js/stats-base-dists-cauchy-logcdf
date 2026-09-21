@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-16)
+## Unreleased (2026-09-21)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`5415582`](https://github.com/stdlib-js/stdlib/commit/5415582c20767abd00cddf753cd804385124d5f4) - **test:** migrate `stats/base/dists/cauchy/logcdf` to ULP-based assertions [(#15263)](https://github.com/stdlib-js/stdlib/pull/15263) _(by Athan Reines)_
 -   [`8d60f41`](https://github.com/stdlib-js/stdlib/commit/8d60f410502fcc75f7d3dc133a20b9202ce7f324) - **docs:** fix JSDoc descriptions [(#12637)](https://github.com/stdlib-js/stdlib/pull/12637) _(by Philipp Burckhardt)_
 -   [`0a5fc6c`](https://github.com/stdlib-js/stdlib/commit/0a5fc6c32eaf8c2efa5f466c33a71c99666db61e) - **refactor:** order validation checks by parameter position in `stats/base/dists/cauchy/*` [(#11942)](https://github.com/stdlib-js/stdlib/pull/11942) _(by Philipp Burckhardt)_
 -   [`564b95d`](https://github.com/stdlib-js/stdlib/commit/564b95d10f2ba27c7ecc0db98712df489458c657) - **bench:** refactor to use string interpolation in `stats/base/dists/cauchy` [(#10249)](https://github.com/stdlib-js/stdlib/pull/10249) _(by Vishal Gaikwad, Philipp Burckhardt)_
@@ -26,8 +27,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 -   Vishal Gaikwad
 
