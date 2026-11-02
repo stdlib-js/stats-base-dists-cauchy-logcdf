@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-02)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a3e3463`](https://github.com/stdlib-js/stdlib/commit/a3e346300a2855a4a1bfb48c31f588db0f515121) - **style:** add whitespace [(#15394)](https://github.com/stdlib-js/stdlib/pull/15394) _(by Philipp Burckhardt)_
 -   [`5415582`](https://github.com/stdlib-js/stdlib/commit/5415582c20767abd00cddf753cd804385124d5f4) - **test:** migrate `stats/base/dists/cauchy/logcdf` to ULP-based assertions [(#15263)](https://github.com/stdlib-js/stdlib/pull/15263) _(by Athan Reines)_
 -   [`8d60f41`](https://github.com/stdlib-js/stdlib/commit/8d60f410502fcc75f7d3dc133a20b9202ce7f324) - **docs:** fix JSDoc descriptions [(#12637)](https://github.com/stdlib-js/stdlib/pull/12637) _(by Philipp Burckhardt)_
 -   [`0a5fc6c`](https://github.com/stdlib-js/stdlib/commit/0a5fc6c32eaf8c2efa5f466c33a71c99666db61e) - **refactor:** order validation checks by parameter position in `stats/base/dists/cauchy/*` [(#11942)](https://github.com/stdlib-js/stdlib/pull/11942) _(by Philipp Burckhardt)_
